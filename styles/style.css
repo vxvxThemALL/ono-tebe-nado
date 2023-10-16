@@ -1,6 +1,6 @@
 /* место для вашего кода */
 body {
-  width: 1440px;
+  max-width: 1440px;
 }
 
 .overlay {
@@ -12,10 +12,13 @@ body {
   background-color: rgb(0 0 0 / 0.6);
 }
 
-.adress {
+.address {
   line-height: 1.35;
   text-underline-offset: 4px;
   font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 /* header */
@@ -37,8 +40,9 @@ body {
   flex-direction: row;
   gap: 32px;
 
+  font-size: 18px;
   text-underline-offset: 4px;
-  list-style: circle;5
+  list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
@@ -59,7 +63,7 @@ body {
   height: 105px;
 }
 
-.header__adress {
+.header__address {
   justify-self: right;
   font-style: normal;
 }
@@ -270,10 +274,6 @@ body {
   width: 148px;
 }
 
-.about__column {
-  
-}
-
 .about__title {
   align-self: start;
   padding: 100px 0;
@@ -285,6 +285,7 @@ body {
   font-size: 40px;
   text-transform: uppercase;
   text-indent: 40px;
+  line-height: 1;
 }
 
 .about__text {
