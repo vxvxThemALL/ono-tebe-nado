@@ -131,6 +131,7 @@ body {
   gap: 78px;
   height: 52px;
   margin-bottom: 0;
+
 }
 
 .cover__description-text {
@@ -138,7 +139,7 @@ body {
   font-weight: 400;
   font-size: 22px;
   text-transform: uppercase;
-  word-spacing: 20px;
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -246,13 +247,14 @@ body {
   font-weight: 400;
   font-size: 20px;
   text-indent: 40px;
+  text-underline-offset: 4px;
 }
 
 /* about */
 
 .about {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 430px 1fr;
   column-gap: 25px;
   padding: 0 50px;
   margin-bottom: 180px;
@@ -284,8 +286,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-  text-indent: 40px;
-  line-height: 1;
+  line-height: normal;
 }
 
 .about__text {
